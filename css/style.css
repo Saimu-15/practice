@@ -1,0 +1,139 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width:1200px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* common css end */
+
+/* nav section css start */
+nav{
+    background: #252d2f;
+}
+
+nav .row{
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+
+nav .logo{
+    width: 15%;
+}
+
+nav .logo img{
+    display: block;
+}
+
+nav .menu{
+    width: 85%;
+}
+
+nav .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+nav .menu ul li a{
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 27px 20px;
+    display: inline-block;
+    transition: 0.7s;
+}
+
+nav .menu ul li:hover a{
+    color: #2ecc71;
+    background: #ffffff;
+}
+/* nav section css end */
+
+/* banner section css start */
+#banner{
+    background: url(../image/banner_bg.jpg);
+    height: 999px;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner .container{
+    height: 100%;
+    text-align: center;
+}
+
+#banner .row{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner .banner_content h1{
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-top: 2px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    margin: 50px auto;
+}
+
+#banner .banner_content a{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: transparent;
+    border: 2px solid #ffffff;
+    padding: 15px 42px;
+}
+/* banner scetion css end */
+
+/* bio section css start */
+#bio{
+    padding: 95px;
+}
+
+#bio .bio_item{
+    width: 33%;
+    text-align: left;
+    padding: 50px;
+}
+
+#bio .bio_item h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #566366;
+}
+
+#bio .bio_item p{
+    font-size: 18px;
+    color: #919191;
+    width: 360px;
+}
+/* bio section css end */
